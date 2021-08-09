@@ -202,11 +202,7 @@ class Header extends Component {
             />
             <Link href="/">
               <a>
-                <img
-                  src="/images/commerce.svg"
-                  className="logo cursor-pointer"
-                  alt="Logo"
-                />
+                <h3 className="text-black" style={{color : "black"}}>SideHustla</h3>
               </a>
             </Link>
           </div>

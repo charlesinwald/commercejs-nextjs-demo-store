@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 export default function HomeBanner() {
   return (
-    <div className="p-5">
+    <div className="p-5 svg-background">
       <p
-        className="font-size-display1 mt-5 text-center mx-auto text-uppercase"
+        className="font-size-display1 mt-5 text-center mx-auto text-uppercase text-white bg-grey-400"
         style={{ maxWidth: '53rem' }}
       >
-        Moisture is the essence of wetness, and wetness is the essence of beauty.
+        Only the dankest of memes.
       </p>
       <div className="d-flex align-items-center justify-content-center mt-3 mb-5">
         <Link href="/about">
